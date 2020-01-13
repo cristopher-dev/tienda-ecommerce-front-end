@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ecommerce</title>
+
+  <!--CND bootstrap-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!--libreria -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+
+</head>
+
+<body class="m-0 p-0"">
+
+  <!--=======================================-->
+  <!--BARRA DE NAVEGACION-->
+  <!--=======================================-->
+  <nav class=" navbar navbar-light bg-light">
+  <div class="container-fluid my-3">
+    <!-- IMG Y TXT -->
+    <a class="navbar-brand" href="/">
+      <img src="https://cdn.pixabay.com/photo/2018/08/17/19/52/shopping-3613689_960_720.png" width="30" height="30"
+        class="d-inline-block align-top" alt="">
+      Bootstrap
+    </a>
+    <!-- BARRA DE BUSQUEDA-->
+    <form class="form-inline d-inline-block w-75">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <button type="button" class="btn rounded-left btn-primary" type="submit"><i
+              class="fas fa-search"></i></button>
+        </div>
+        <input type="text" name="buscae" class="form-control" placeholder="Buscar" aria-label="Username"
+          aria-describedby="basic-addon1">
+
+      </div>
+    </form>
+    <!-- CARRITO DE COMPRAS-->
+    <button type="button" class="btn btn-primary">
+      Carrito <i class="fas fa-shopping-cart"></i> <span class="badge badge-light">9</span>
+    </button>
+
+
+
+  </div>
+  </nav>
+
+  <!--=======================================-->
+  <!--BANNERS-->
+  <!--=======================================-->
+  <section id="carousel" class="container carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="/carousel" data-slide-to="0" class="active rounded-circle w-1"></li>
+      <li data-target="/carousel" data-slide-to="1" class="rounded-circle w-1"></li>
+      <li data-target="/carousel" data-slide-to="2" class="rounded-circle w-1"></li>
+    </ol>
+
+    <article class="carousel-inner">
+      <div class="carousel-item active" data-interval="1000">
+        <img src="./img/./img full/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-interval="1000">
+        <img src="./img/./img full/2.jpg"" class=" d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item data-interval=" 1000"">
+        <img src="./img/./img full/3.jpg"" class=" d-block w-100" alt="...">
+      </div>
+
+    </article>
+
+  </section>
+
+  <!--=======================================-->
+  <!--CATEGORIA-->
+  <!--=======================================-->
+  <section class="bbb_advs py-5">
+    <div class="container">
+      <h5 class="text-center text-uppercase tex font-weight-bold"> CATEGORIA
+      </h5>
+      <div class="row">
+        <article class="col-lg-4 bbb_adv_col">
+          <!-- bbb_adv Item -->
+          <div class="bbb_adv d-flex flex-row align-items-center justify-content-start">
+            <div class="bbb_adv_content">
+              <div class="bbb_adv_title"><a href="page/categoria/computadoresyportatil.html">Tendencias 2020</a></div>
+              <div class="bbb_adv_text">Computadoras portátiles y accesorios</div>
+            </div>
+            <div class="ml-auto">
+              <div class="bbb_adv_image"><img
+                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561815855/rp-image.png" alt=""></div>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg-4 bbb_adv_col">
+          <!-- bbb_adv Item -->
+          <div class="bbb_adv d-flex flex-row align-items-center justify-content-start">
+            <div class="bbb_adv_content">
+              <div class="bbb_adv_subtitle">Tendencias 2020</div>
+              <div class="bbb_adv_title_2"><a href="./page/categoria/musica.html">Venta -45%</a></div>
+              <div class="bbb_adv_text">Todos los auriculares nuevos hasta un 45% de descuento.</div>
+            </div>
+            <div class="ml-auto">
+              <div class="bbb_adv_image"><img
+                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561816391/rp1.png" alt=""></div>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg-4 bbb_adv_col">
+          <!-- bbb_adv Item -->
+          <div class="bbb_adv d-flex flex-row align-items-center justify-content-start">
+            <div class="bbb_adv_content">
+              <div class="bbb_adv_title"><a href="page/categoria/productodemoda.html">Tendencias 2020</a></div>
+              <div class="bbb_adv_text">Producto de moda 2020 </div>
+            </div>
+            <div class="ml-auto">
+              <div class="bbb_adv_image"><img
+                  src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561814261/adv_3.png" alt=""></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!--=======================================-->
+  <!--LISTA DE PRODUCTOS 2020-->
+  <!--=======================================-->
+  <section class="py-5">
+    <div class="bbb_background"></div>
+    <div class="bbb_overlay"></div>
+    <div class="container">
+      <h5 class="text-center text-uppercase tex font-weight-bold"> LISTA DE PRODUCTOS 2020
+      </h5>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="bbb_container">
+            <h2 class="bbb_title">Últimos productos 2019</h2>
+            <div class="bbb_text">
+              <p>Encuentra los últimos productos en 2019</p>
+            </div>
+            <div class="bbb_slider_nav mt-5">
+              <div class="bbb_prev bbb_nav"><i class="fas fa-angle-left ml-auto"></i></div>
+              <div class="bbb_next bbb_nav"><i class="fas fa-angle-right ml-auto"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="bbb_slider_container">
+            <div class="owl-carousel owl-theme bbb_slider">
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg"
+                      alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924221/51_be7qfhil.jpg" alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
+                      alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924275/images.jpg" alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924361/21HmjI5eVcL.jpg" alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+              <article class="owl-item">
+                <div class="bbb_item is_new">
+                  <div class="bbb_image d-flex flex-column align-items-center justify-content-center"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
+                      alt=""></div>
+                  <div class="bbb_content">
+                    <div class="bbb_category text-uppercase"><a href="/">Smart Phones</a></div>
+                    <div class="bbb_info clearfix">
+                      <div class="bbb_name text-capitalize"><a href="product.html">Alcatel Mobile</a></div>
+                      <div class="bbb_price">$ 10.000</div>
+                    </div>
+                  </div>
+                  <ul class="bbb_marks">
+                    <li class="bbb_mark bbb_discount">-25%</li>
+                    <li class="bbb_mark bbb_new text-capitalize">Nuevo</li>
+                  </ul>
+                  <div class="bbb_fav"><i class="fas fa-heart"></i></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=======================================-->
+  <!--GALERIA DE VENTA-->
+  <!--=======================================-->
+  <section class="container py-5">
+    <h5 class="text-center text-uppercase tex font-weight-bold">GALERIA</h5>
+    <hr>
+    <div class="row">
+      <article class="col-md-4">
+        <div class="item">
+          <h4>imagenes Laptop with 500GB HDD 8GB RAM</h4>
+          <p class="text-primary">$10.000 x</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750967/Ecommerce/ef192a21ec96.jpg" alt="camera"
+            class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+      <article class="col-md-4">
+        <div class="item">
+          <h4>DELL Laptop with 500GB HDD 8GB RAM</h4>
+          <p class="text-primary">$10.000</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571751108/Ecommerce/laptop-dell-xps-15-computer-monitors-laptops.jpg"
+            alt="camera" class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+      <article class="col-md-4">
+        <div class="item">
+          <h4>imagenes Laptop with 1TB HDD 8GB RAM</h4>
+          <p class="text-primary">$10.000</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750722/Ecommerce/acer-v-17-nitro-realsense.jpg"
+            alt="camera" class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+      <article class="col-md-4">
+        <div class="item">
+          <h4>HP Laptop with 250GB HDD 4GB RAM</h4>
+          <p class="text-primary">$10.000</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750391/Ecommerce/hp-17-x061nr-white-background.jpg"
+            alt="camera" class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+      <article class="col-md-4">
+        <div class="item">
+          <h4>imagenes Laptop with 500GB HDD 16GB RAM</h4>
+          <p class="text-primary">$10.000</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571750338/Ecommerce/Laptop-3.jpg" alt="camera"
+            class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+      <article class="col-md-4">
+        <div class="item">
+          <h4>DELL XPS with 500GB HDD 8GB RAM</h4>
+          <p class="text-primary">$10.000</p><img
+            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1571751108/Ecommerce/laptop-dell-xps-15-computer-monitors-laptops.jpg"
+            alt="camera" class="img-fluid">
+          <div class="overlay d-flex align-items-center justify-content-center"><a href="page/visorimg/visorimg.html"
+              class="btn btn-unique" data-abc="true">Ver detalles</a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!--=======================================-->
+  <!--JUMBOTRON-->
+  <!--=======================================-->
+  <section class="jumbotron text-center  mx-0 mb-5">
+
+    <!-- Title -->
+    <h2 class="h2 text-uppercase">No te pierdas una venta</h2>
+
+    <!-- Subtitle -->
+    <p class="my-4 h6">Suscríbase a nuestro boletín</p>
+
+    <!-- Grid row -->
+    <div class="row d-flex justify-content-center">
+
+      <!-- Grid column -->
+      <div class="col-xl-7 pb-2">
+
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem ea
+          distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit consequatur ducimus
+          obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem aperiam.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <hr class="my-4 rgba-white-light">
+
+    <!-- Material input -->
+    <div class="container">
+      <div class="email input-group flex-nowrap ">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping"><i class="fas fa-envelope prefix"></i></span>
+        </div>
+        <input type="email" class="form-control" placeholder="Email" aria-label="Username"
+          aria-describedby="addon-wrapping">
+
+        <div class="input-group-append">
+          <button class="btn btn-danger text-capitalize" type="button" id="button-addon2">suscribirse</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Jumbotron -->
+
+  <!--=======================================-->
+  <!--VISTO RECIENTEMENTE-->
+  <!--=======================================-->
+  <section class="viewed">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="bbb_viewed_title_container">
+            <h3 class="bbb_viewed_title text-uppercase font-weight-bold">VISTO RECIENTEMENTE</h3>
+            <div class="bbb_viewed_nav_container">
+              <div class="bbb_viewed_nav bbb_viewed_prev"><i class="fas fa-chevron-left"></i></div>
+              <div class="bbb_viewed_nav bbb_viewed_next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+          </div>
+          <div class="bbb_viewed_slider_container">
+            <div class="owl-carousel owl-theme bbb_viewed_slider">
+              <div class="owl-item">
+                <div
+                  class="bbb_viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg"
+                      alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">$10.000<span>$10.000</span></div>
+                    <div class="bbb_viewed_name"><a href="/">Alkatel Phone</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924221/51_be7qfhil.jpg" alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">$10.000</div>
+                    <div class="bbb_viewed_name"><a href="/">Samsung LED</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
+                      alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">$10.000</div>
+                    <div class="bbb_viewed_name"><a href="/">Samsung Mobile</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div
+                  class="bbb_viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924275/images.jpg" alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">$10.000</div>
+                    <div class="bbb_viewed_name"><a href="/">Huawei Power</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div
+                  class="bbb_viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924361/21HmjI5eVcL.jpg" alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">$10.000<span>$10.000</span></div>
+                    <div class="bbb_viewed_name"><a href="/">Sony Power</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div class="bbb_viewed_item d-flex flex-column align-items-center justify-content-center text-center">
+                  <div class="bbb_viewed_image"><img
+                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924241/8fbb415a2ab2a4de55bb0c8da73c4172--ps.jpg"
+                      alt=""></div>
+                  <div class="bbb_viewed_content text-center">
+                    <div class="bbb_viewed_price">₹13275</div>
+                    <div class="bbb_viewed_name"><a href="/">Speedlink Mobile</a></div>
+                  </div>
+                  <ul class="item_marks">
+                    <li class="item_mark item_discount">-25%</li>
+                    <li class="item_mark item_new">new</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <!--=======================================-->
+  <!--FOOTER-->
+  <!--=======================================-->
+  <footer class='container-fluid'>
+    <div class="cardFooterColor">
+      <div class="heading text-center">
+        <div class="head1 text-uppercase">Inromacion de la empresa y politicas</div>
+        <p class="bdr"></p>
+      </div>
+      <div class="card-body">
+        <div class="row m-0 pt-5">
+          <div class="card col-12 col-md-3">
+            <div class="card-content"> <i class="fas fa-hand-holding-usd fa-3x"></i>
+              <div class="card-title text-uppercase">Dinero</div>
+              <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem recusandae ex molestias
+                  explicabo vero? Quo,
+                  necessitatibus </small></p>
+              <div class="learn-more">
+                <p> <small> LEER MAS<label><i class="fas fa-angle-right"></i></label> </small> </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-3">
+            <div class="card-content"> <i class="far fa-handshake fa-3x"></i>
+              <div class="card-title text-uppercase">acuerdo de pago</div>
+              <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem recusandae ex molestias
+                  explicabo vero? Quo,
+                  necessitatibus </small></p>
+              <div class="learn-more">
+                <p> <small> LEER MAS<label><i class="fas fa-angle-right"></i></label> </small> </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-3">
+            <div class="card-content"> <i class="fas fa-mobile-alt fa-3x"></i>
+              <div class="card-title text-uppercase">24 / 7 soporte</div>
+              <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem recusandae ex molestias
+                  explicabo vero? Quo,
+                  necessitatibus </small></p>
+              <div class="learn-more">
+                <p> <small> LEER MAS<label><i class="fas fa-angle-right"></i></label> </small> </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-3">
+            <div class="card-content"> <i class="fas fa-user-secret fa-3x"></i>
+              <div class="card-title text-uppercase"> confianza<br /> segurida </div>
+              <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem recusandae ex molestias
+                  explicabo vero? Quo,
+                  necessitatibus </small></p>
+              <div class="learn-more">
+                <p> <small> LEER MAS<label><i class="fas fa-angle-right"></i></label> </small> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer row m-0">
+        <p> <label> <i class="fas fa-phone fa-rotate-90 text-primary"></i> </label>XXX-XXX-XXXX</p>
+        <div>
+          <p> <small class="follow-text">SÍGUENOS EN LAS REDES SOCIALES</small> <label class="footer-right"> <i
+                class="fab fa-instagram"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i
+                class="fab fa-twitter-square"></i> </label> </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="./js/jquery-3.4.1.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <script src="./js/style.js"></script>
+</body>
+
+</html>
